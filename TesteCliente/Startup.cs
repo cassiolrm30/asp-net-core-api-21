@@ -18,7 +18,6 @@ namespace TesteCliente
 
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddCors();
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
             services.Configure<CookiePolicyOptions>(options =>
             {
@@ -34,12 +33,6 @@ namespace TesteCliente
             else
                 app.UseExceptionHandler("/Home/Error");
 
-            app.UseCors(x => x
-                    .AllowAnyOrigin()
-                    .AllowAnyMethod()
-                    .AllowAnyHeader()
-                    .AllowCredentials());
-            app.UseHttpsRedirection();
             app.UseMvc();
             app.UseStaticFiles();
             app.UseCookiePolicy();

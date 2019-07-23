@@ -66,7 +66,7 @@ using TesteCliente.Models;
             WriteLiteral("<h1>To-do CRUD</h1>\n<h3>Add</h3>\n");
             EndContext();
             BeginContext(75, 178, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "b2262f22ad8a467482f765b986f9b5e7", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "4d203d5ef96d4d688d7eacad8a77e089", async() => {
                 BeginContext(145, 101, true);
                 WriteLiteral("\n    <input type=\"text\" id=\"add-name\" placeholder=\"New to-do\">\n    <input type=\"submit\" value=\"Add\">\n");
                 EndContext();
@@ -92,7 +92,7 @@ using TesteCliente.Models;
             WriteLiteral("\n<div id=\"spoiler\">\n    <h3>Edit</h3>\n    ");
             EndContext();
             BeginContext(295, 282, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5a232ef6dbae4a54b617b22e43f73527", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "c3e7b9b4c0ff481b807938c5b822bffd", async() => {
                 BeginContext(317, 253, true);
                 WriteLiteral("\n        <input type=\"hidden\" id=\"edit-id\">\n        <input type=\"checkbox\" id=\"edit-isComplete\">\n        <input type=\"text\" id=\"edit-name\">\n        <input type=\"submit\" value=\"Save\">\n        <a onclick=\"closeInput()\" aria-label=\"Close\">&#10006;</a>\n    ");
                 EndContext();
@@ -128,7 +128,7 @@ using TesteCliente.Models;
 ");
             EndContext();
             BeginContext(916, 36, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("script", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "4c2739ca7dda4319951ad1c62cad26eb", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("script", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "f1c8bb75e60d4d6d898529016b8e7cf4", async() => {
             }
             );
             __Microsoft_AspNetCore_Mvc_Razor_TagHelpers_UrlResolutionTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.Razor.TagHelpers.UrlResolutionTagHelper>();
